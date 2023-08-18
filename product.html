@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="/style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/category.html">
+    <link rel="stylesheet" href="/media.css">
+    <link rel="stylesheet" href="/index.html">
+</head>
+<body>
+
+
+
+    <header>
+        <div id="brand"><a href="/">Green Basket</a></div>
+        <nav>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/category.html">Category</a></li>
+            <li><a href="/product.html">Products</a></li>
+            <li><a href="/Review.html">Review</a></li>
+           <!-- product section -->
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+           
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/category.html">Category</a></li>
+            <li><a href="/product.html">Products</a></li>
+            <li><a href="/Review.html">Review</a></li>
+        </div>
+      </header>
+      <script src="/index.js"></script>
+
+<br>
+<br>
+<section class="shop">
+    <div class="card">
+        <div class="tomatoes">
+            <div>
+                <img  src="/image/banana-removebg-preview.png" alt="">
+                <h3>Banana</h3>
+            </div>
+            <div class="middle">
+            <div class="stars">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeNJREFUSEu1lcFZwkAQhf/J512sQGLwLFYgVqBWIFSgVqBWoFYgVqAdiB3IWSJ0INw147ebjYSQjRF1L3wB8t68N29mhX8+8s/4/IhAY54BlYjduoXVJtARXYRbC6z0pEW/DslPCAYIexZUGMgW+39GoC90CHgEZg50nYR92WbwHUktBfrKA8oBcOkAzxHuZIvurwl0TJOEsQUK2LCfCW/uOZSQSRXJlwIdcYiwAzQRmq6ZDaDtfP+qWF/poxw74GeEqfu/IZugDKXFQ9oudzRGKyqZEdDOqnWqTGTXfe9IlGLnFcxjKNzxQZ81phLa7HuPjmnzToOAa7AOLMR4ocmrZF3HNEi4AtvwGcppfkaWUrRAAn2J6PnKd+AmvqZPxsZOUXFpTAskZxJZ+UvHrQ5jSyn4Qg+Kb2tsQU9M9iXiwkNgUrNZNXTeQdMR6WpQjrLILRUxj6tXpZ8gi23AhoRMbVoSt+wCesZrNzv3KE/SolOmsrwH890zlIi2xtai8wLABQE3uam2hRRJygliTsFGL5uBdJrzuyh9Nr+baW/6rCwnmC+3rKAhAd0sgs4ucx+kg5XGpXT5+RQYqdkaqEpR3rqJRIR1LUqtyVVdMWym+fZ2M/2qReADW+X7WhfOKsDZO59eprQZQIRO6QAAAABJRU5ErkJggg=="/>
+            </div>
+            <div class="fl">
+             <p>Ksh.20</p>
+            </div>
+        </div>
+            <div class="quantity">
+                <input type="Number" min="1" max="1000" value="1">
+                <span>kg</span>
+            </div>
+            <br>
+            <br>
+            <br>
+           
+            <!-- <br> -->
+            <a href="/checkOut.html"><button class="green">CheckOut</button></a>
+            <br>
+        
+        </div>
+        </div>
+        <div class="card">
+            <div class="tomatoes">
+                <div>
+                    <img src="/image/cabbages-removebg-preview.png" alt="">
+                    <br>
+                    <br>
+                    <h3>Cabbage</h3>
+                </div>
+                <div class="middle">
+                <div class="stars">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeNJREFUSEu1lcFZwkAQhf/J512sQGLwLFYgVqBWIFSgVqBWoFYgVqAdiB3IWSJ0INw147ebjYSQjRF1L3wB8t68N29mhX8+8s/4/IhAY54BlYjduoXVJtARXYRbC6z0pEW/DslPCAYIexZUGMgW+39GoC90CHgEZg50nYR92WbwHUktBfrKA8oBcOkAzxHuZIvurwl0TJOEsQUK2LCfCW/uOZSQSRXJlwIdcYiwAzQRmq6ZDaDtfP+qWF/poxw74GeEqfu/IZugDKXFQ9oudzRGKyqZEdDOqnWqTGTXfe9IlGLnFcxjKNzxQZ81phLa7HuPjmnzToOAa7AOLMR4ocmrZF3HNEi4AtvwGcppfkaWUrRAAn2J6PnKd+AmvqZPxsZOUXFpTAskZxJZ+UvHrQ5jSyn4Qg+Kb2tsQU9M9iXiwkNgUrNZNXTeQdMR6WpQjrLILRUxj6tXpZ8gi23AhoRMbVoSt+wCesZrNzv3KE/SolOmsrwH890zlIi2xtai8wLABQE3uam2hRRJygliTsFGL5uBdJrzuyh9Nr+baW/6rCwnmC+3rKAhAd0sgs4ucx+kg5XGpXT5+RQYqdkaqEpR3rqJRIR1LUqtyVVdMWym+fZ2M/2qReADW+X7WhfOKsDZO59eprQZQIRO6QAAAABJRU5ErkJggg=="/>
+                </div>
+                <div class="fl">
+                 
+                 <p>Ksh.15</p>
+                </div>
+            </div>
+                <div class="quantity">
+                    <input type="Number" min="1" max="1000" value="1">
+                    <span>kg</span>
+                </div>
+                <a href="/checkOut.html">
+                    <br>
+                    <br>
+                    <!-- <br> -->
+                    <br><button class="green">CheckOut</button></a>
+                   
+                </div>
+                </div>
+            <div class="card">
+                <div class="tomatoes">
+                    <div>
+                        <img src="/image/cucumber.png" alt="">
+                        <br>
+                        <br>
+                        <br>
+                        <h3>Cucumber</h3>
+                    </div>
+                    <div class="middle">
+                    <div class="stars">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeNJREFUSEu1lcFZwkAQhf/J512sQGLwLFYgVqBWIFSgVqBWoFYgVqAdiB3IWSJ0INw147ebjYSQjRF1L3wB8t68N29mhX8+8s/4/IhAY54BlYjduoXVJtARXYRbC6z0pEW/DslPCAYIexZUGMgW+39GoC90CHgEZg50nYR92WbwHUktBfrKA8oBcOkAzxHuZIvurwl0TJOEsQUK2LCfCW/uOZSQSRXJlwIdcYiwAzQRmq6ZDaDtfP+qWF/poxw74GeEqfu/IZugDKXFQ9oudzRGKyqZEdDOqnWqTGTXfe9IlGLnFcxjKNzxQZ81phLa7HuPjmnzToOAa7AOLMR4ocmrZF3HNEi4AtvwGcppfkaWUrRAAn2J6PnKd+AmvqZPxsZOUXFpTAskZxJZ+UvHrQ5jSyn4Qg+Kb2tsQU9M9iXiwkNgUrNZNXTeQdMR6WpQjrLILRUxj6tXpZ8gi23AhoRMbVoSt+wCesZrNzv3KE/SolOmsrwH890zlIi2xtai8wLABQE3uam2hRRJygliTsFGL5uBdJrzuyh9Nr+baW/6rCwnmC+3rKAhAd0sgs4ucx+kg5XGpXT5+RQYqdkaqEpR3rqJRIR1LUqtyVVdMWym+fZ2M/2qReADW+X7WhfOKsDZO59eprQZQIRO6QAAAABJRU5ErkJggg=="/>
+                    </div>
+                    <div class="fl">
+                    <br>
+                     <p>Ksh.40</p>
+                    </div>
+                </div>
+                    <div class="quantity">
+                        <input type="Number" min="1" max="1000" value="1">
+                        <!-- <br> -->
+                        <span>kg</span>
+                        <a href="/checkOut.html">
+                    </div>
+                    <br>
+                    <br>
+                    <!-- <br> -->
+                        <br><button class="green">CheckOut</button></a>
+                      
+                </div>
+
+                </div>
+                
+                <div class="card">
+                    <div class="Mangoes">
+                        <div>
+                            <img src="/image/mango-removebg-preview.png" alt="">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <h3>Mangoes</h3>
+                        </div>
+                        <div class="middle">
+                        <div class="stars">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeNJREFUSEu1lcFZwkAQhf/J512sQGLwLFYgVqBWIFSgVqBWoFYgVqAdiB3IWSJ0INw147ebjYSQjRF1L3wB8t68N29mhX8+8s/4/IhAY54BlYjduoXVJtARXYRbC6z0pEW/DslPCAYIexZUGMgW+39GoC90CHgEZg50nYR92WbwHUktBfrKA8oBcOkAzxHuZIvurwl0TJOEsQUK2LCfCW/uOZSQSRXJlwIdcYiwAzQRmq6ZDaDtfP+qWF/poxw74GeEqfu/IZugDKXFQ9oudzRGKyqZEdDOqnWqTGTXfe9IlGLnFcxjKNzxQZ81phLa7HuPjmnzToOAa7AOLMR4ocmrZF3HNEi4AtvwGcppfkaWUrRAAn2J6PnKd+AmvqZPxsZOUXFpTAskZxJZ+UvHrQ5jSyn4Qg+Kb2tsQU9M9iXiwkNgUrNZNXTeQdMR6WpQjrLILRUxj6tXpZ8gi23AhoRMbVoSt+wCesZrNzv3KE/SolOmsrwH890zlIi2xtai8wLABQE3uam2hRRJygliTsFGL5uBdJrzuyh9Nr+baW/6rCwnmC+3rKAhAd0sgs4ucx+kg5XGpXT5+RQYqdkaqEpR3rqJRIR1LUqtyVVdMWym+fZ2M/2qReADW+X7WhfOKsDZO59eprQZQIRO6QAAAABJRU5ErkJggg=="/>
+                        </div>
+                        <div class="fl">
+                         <br>
+                         <p>Ksh.45</p>
+                        </div>
+                    </div>
+                        <div class="quantity">
+                            <input type="Number" min="1" max="1000" value="1">
+                            <span>kg</span>
+                            <a href="/checkOut.html">
+                        </div>
+                        <br>
+                        <br>
+                            <button class="green">CheckOut</button></a>
+                    </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="tomatoe">
+                            <div>
+                                <img src="/image/hoho-removebg-preview.png" alt="">
+                                <h3>Hoho</h3>
+                            </div>
+                            <div class="middle">
+                            <div class="stars">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeNJREFUSEu1lcFZwkAQhf/J512sQGLwLFYgVqBWIFSgVqBWoFYgVqAdiB3IWSJ0INw147ebjYSQjRF1L3wB8t68N29mhX8+8s/4/IhAY54BlYjduoXVJtARXYRbC6z0pEW/DslPCAYIexZUGMgW+39GoC90CHgEZg50nYR92WbwHUktBfrKA8oBcOkAzxHuZIvurwl0TJOEsQUK2LCfCW/uOZSQSRXJlwIdcYiwAzQRmq6ZDaDtfP+qWF/poxw74GeEqfu/IZugDKXFQ9oudzRGKyqZEdDOqnWqTGTXfe9IlGLnFcxjKNzxQZ81phLa7HuPjmnzToOAa7AOLMR4ocmrZF3HNEi4AtvwGcppfkaWUrRAAn2J6PnKd+AmvqZPxsZOUXFpTAskZxJZ+UvHrQ5jSyn4Qg+Kb2tsQU9M9iXiwkNgUrNZNXTeQdMR6WpQjrLILRUxj6tXpZ8gi23AhoRMbVoSt+wCesZrNzv3KE/SolOmsrwH890zlIi2xtai8wLABQE3uam2hRRJygliTsFGL5uBdJrzuyh9Nr+baW/6rCwnmC+3rKAhAd0sgs4ucx+kg5XGpXT5+RQYqdkaqEpR3rqJRIR1LUqtyVVdMWym+fZ2M/2qReADW+X7WhfOKsDZO59eprQZQIRO6QAAAABJRU5ErkJggg=="/>
+                            </div>
+                            <div class="fl">
+                            <br>
+                             <p>Ksh.25</p>
+                            </div>
+                        </div>
+                            <div class="quantity">
+                                <input type="Number" min="1" max="1000" value="1">
+                                <span>kg</span>
+                            </div>
+                            <a href="/checkOut.html">
+                            <br>
+                            <br>
+                                <button class="green">CheckOut</button></a>
+                        </div>
+                        </div>
+                        <div class="card">
+                            <div class="tomatoe">
+                                <div>
+                                    <img src="/image/managu.jpg" alt="">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h3>managu</h3>
+                                </div>
+                                <div class="middle">
+                                <div class="stars">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeNJREFUSEu1lcFZwkAQhf/J512sQGLwLFYgVqBWIFSgVqBWoFYgVqAdiB3IWSJ0INw147ebjYSQjRF1L3wB8t68N29mhX8+8s/4/IhAY54BlYjduoXVJtARXYRbC6z0pEW/DslPCAYIexZUGMgW+39GoC90CHgEZg50nYR92WbwHUktBfrKA8oBcOkAzxHuZIvurwl0TJOEsQUK2LCfCW/uOZSQSRXJlwIdcYiwAzQRmq6ZDaDtfP+qWF/poxw74GeEqfu/IZugDKXFQ9oudzRGKyqZEdDOqnWqTGTXfe9IlGLnFcxjKNzxQZ81phLa7HuPjmnzToOAa7AOLMR4ocmrZF3HNEi4AtvwGcppfkaWUrRAAn2J6PnKd+AmvqZPxsZOUXFpTAskZxJZ+UvHrQ5jSyn4Qg+Kb2tsQU9M9iXiwkNgUrNZNXTeQdMR6WpQjrLILRUxj6tXpZ8gi23AhoRMbVoSt+wCesZrNzv3KE/SolOmsrwH890zlIi2xtai8wLABQE3uam2hRRJygliTsFGL5uBdJrzuyh9Nr+baW/6rCwnmC+3rKAhAd0sgs4ucx+kg5XGpXT5+RQYqdkaqEpR3rqJRIR1LUqtyVVdMWym+fZ2M/2qReADW+X7WhfOKsDZO59eprQZQIRO6QAAAABJRU5ErkJggg=="/>
+                                </div>
+                                <div class="fl">
+                                <br>
+                                 <p>Ksh.120</p>
+                                </div>
+                            </div>
+                                <div class="quantity">
+                                    <input type="Number" min="1" max="1000" value="1">
+                                    <span>kg</span>
+                                </div>
+                                <a href="/checkOut.html">
+                                    <br>
+                                    <!-- <br> -->
+                                    <br><button class="green">CheckOut</button></a>
+                                  
+                            </div>
+                            </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="tomatoe">
+                                    <div>
+                                        <br>
+                                        <br>
+                                        <img src="/image/oranges.jpeg" alt="">
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <h3>Oranges</h3>
+                                    </div>
+                                    <div class="middle">
+                                    <div class="stars">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeNJREFUSEu1lcFZwkAQhf/J512sQGLwLFYgVqBWIFSgVqBWoFYgVqAdiB3IWSJ0INw147ebjYSQjRF1L3wB8t68N29mhX8+8s/4/IhAY54BlYjduoXVJtARXYRbC6z0pEW/DslPCAYIexZUGMgW+39GoC90CHgEZg50nYR92WbwHUktBfrKA8oBcOkAzxHuZIvurwl0TJOEsQUK2LCfCW/uOZSQSRXJlwIdcYiwAzQRmq6ZDaDtfP+qWF/poxw74GeEqfu/IZugDKXFQ9oudzRGKyqZEdDOqnWqTGTXfe9IlGLnFcxjKNzxQZ81phLa7HuPjmnzToOAa7AOLMR4ocmrZF3HNEi4AtvwGcppfkaWUrRAAn2J6PnKd+AmvqZPxsZOUXFpTAskZxJZ+UvHrQ5jSyn4Qg+Kb2tsQU9M9iXiwkNgUrNZNXTeQdMR6WpQjrLILRUxj6tXpZ8gi23AhoRMbVoSt+wCesZrNzv3KE/SolOmsrwH890zlIi2xtai8wLABQE3uam2hRRJygliTsFGL5uBdJrzuyh9Nr+baW/6rCwnmC+3rKAhAd0sgs4ucx+kg5XGpXT5+RQYqdkaqEpR3rqJRIR1LUqtyVVdMWym+fZ2M/2qReADW+X7WhfOKsDZO59eprQZQIRO6QAAAABJRU5ErkJggg=="/>
+                                    </div>
+                                    <div class="fl">
+                                      <br>
+                                     <p>Ksh.35</p>
+                                    </div>
+                                </div>
+                                    <div class="quantity">
+                                        <input type="Number" min="1" max="1000" value="1">
+                                        <span>kg</span>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <a href="/checkOut.html"><button class="green">CheckOut</button></a>
+                                </div>
+                                </div>
+                                <div class="card">
+                                    <div class="Watermelon">
+                                        <div>
+                                            <img src="/image/watermelons-removebg-preview.png" alt="">
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <!-- <br> -->
+                                            <h3>Watermelon</h3>
+                                        </div>
+                                        <div class="middle">
+                                        <div class="stars">
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeNJREFUSEu1lcFZwkAQhf/J512sQGLwLFYgVqBWIFSgVqBWoFYgVqAdiB3IWSJ0INw147ebjYSQjRF1L3wB8t68N29mhX8+8s/4/IhAY54BlYjduoXVJtARXYRbC6z0pEW/DslPCAYIexZUGMgW+39GoC90CHgEZg50nYR92WbwHUktBfrKA8oBcOkAzxHuZIvurwl0TJOEsQUK2LCfCW/uOZSQSRXJlwIdcYiwAzQRmq6ZDaDtfP+qWF/poxw74GeEqfu/IZugDKXFQ9oudzRGKyqZEdDOqnWqTGTXfe9IlGLnFcxjKNzxQZ81phLa7HuPjmnzToOAa7AOLMR4ocmrZF3HNEi4AtvwGcppfkaWUrRAAn2J6PnKd+AmvqZPxsZOUXFpTAskZxJZ+UvHrQ5jSyn4Qg+Kb2tsQU9M9iXiwkNgUrNZNXTeQdMR6WpQjrLILRUxj6tXpZ8gi23AhoRMbVoSt+wCesZrNzv3KE/SolOmsrwH890zlIi2xtai8wLABQE3uam2hRRJygliTsFGL5uBdJrzuyh9Nr+baW/6rCwnmC+3rKAhAd0sgs4ucx+kg5XGpXT5+RQYqdkaqEpR3rqJRIR1LUqtyVVdMWym+fZ2M/2qReADW+X7WhfOKsDZO59eprQZQIRO6QAAAABJRU5ErkJggg=="/>
+                                        </div>
+                                        <div class="fl">
+                                         <br>
+                                         <p>Ksh.100</p>
+                                        </div>
+                                    </div>
+                                        <div class="quantity">
+                                            <input type="Number" min="1" max="1000" value="1">
+                                            <span>kg</span>
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <a href="/checkOut.html"><button class="green">CheckOut</button></a>
+                                    </div>
+                                    </div>
+
+<div class="card">
+                                    <div class="Onion">
+                                        <div>
+                                            <img src="/image/onions-removebg-preview.png" alt="">
+                                            <br>
+                                            <br>
+                                            <br>
+                                           
+                                            <h3>Onions</h3>
+                                        </div>
+                                        <div class="middle">
+                                        <div class="stars">
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEu1leFZwjAQht/rAuoGlOJvcQJhAnUDnECcQJlAN0A3YAPrBvBbKowgC3A+pAVampIU5H4m6ffmct9dhROHnFifWgBNGAMqEde+F/MG6JQewtAIKw/S4t0HUgcQI9wYUSGWJt1/A+g3HQI+C4JLunJJ7IJ4ZaA/jFBuC2LChzTpHQ3QGQ2WzKxCAaGEzPdBNhnolDuEK6CB0MiKeQ60HbccI/xm51ewOcpEWozScmWhCepKt86+RKl2PoOtDeso2c7mbFwocsHrh0EWKP18j5RcdARkQUBHQtPtm7Da9ACIVbxQg90X0YQ34NHrpfY0XWWj6ZTtaHBTniQyFypFNaCObZUvadHxBlhnjyuLgAsJs4ZzFjmhD7xaNAfZ2nNpT7lfd6/bReXhNiGgt7agzmizNP+D1WhJo2L42W2amFTPsk8HEvFibdjErK+zmUtEuHuuCpA2S+7WVSXIZYNE5cHo9T9w1Xff/skBfx7ZchkBvFBWAAAAAElFTkSuQmCC"/>
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeNJREFUSEu1lcFZwkAQhf/J512sQGLwLFYgVqBWIFSgVqBWoFYgVqAdiB3IWSJ0INw147ebjYSQjRF1L3wB8t68N29mhX8+8s/4/IhAY54BlYjduoXVJtARXYRbC6z0pEW/DslPCAYIexZUGMgW+39GoC90CHgEZg50nYR92WbwHUktBfrKA8oBcOkAzxHuZIvurwl0TJOEsQUK2LCfCW/uOZSQSRXJlwIdcYiwAzQRmq6ZDaDtfP+qWF/poxw74GeEqfu/IZugDKXFQ9oudzRGKyqZEdDOqnWqTGTXfe9IlGLnFcxjKNzxQZ81phLa7HuPjmnzToOAa7AOLMR4ocmrZF3HNEi4AtvwGcppfkaWUrRAAn2J6PnKd+AmvqZPxsZOUXFpTAskZxJZ+UvHrQ5jSyn4Qg+Kb2tsQU9M9iXiwkNgUrNZNXTeQdMR6WpQjrLILRUxj6tXpZ8gi23AhoRMbVoSt+wCesZrNzv3KE/SolOmsrwH890zlIi2xtai8wLABQE3uam2hRRJygliTsFGL5uBdJrzuyh9Nr+baW/6rCwnmC+3rKAhAd0sgs4ucx+kg5XGpXT5+RQYqdkaqEpR3rqJRIR1LUqtyVVdMWym+fZ2M/2qReADW+X7WhfOKsDZO59eprQZQIRO6QAAAABJRU5ErkJggg=="/>
+                                        </div>
+                                        <div class="fl">
+                                         <br>
+                                         <p>Ksh.25</p>
+                                        </div>
+                                    </div>
+                                        <div class="quantity">
+                                            <input type="Number" min="1" max="1000" value="1">
+                                            <span>kg</span>
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <a href="/checkOut.html"><button class="green">CheckOut</button></a>
+                                    </div>
+                                    </div>
+    </section>
+ 

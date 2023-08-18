@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+
+  <header>
+    <img class="logo" src="/image/GREEN_BASKET-removebg-preview.png" alt="">
+    <div id="brand"><a href="/">Green Basket</a></div>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/category.html">Category</a></li>
+        <li><a href="/product.html">Products</a></li>
+        <li><a href="/Review.html">Review</a></li>
+       
+      </ul>
+    </nav>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/category.html">Category</a></li>
+        <li><a href="/product.html">Products</a></li>
+        <li><a href="/Review.html">Review</a></li>
+        
+    </div>
+  </header>
+  <script src="/index.js"></script>
+
+
+    <div class="nav-barr">
+        <div class="nav">
+            <!-- <input type="checkbox" id="nav-check"> -->
+            <div class="nav-header">
+              <div class="nav-title">
+           
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+           
+          </div>
+        </div>
+  
+    <section class="checkout">
+    <h1 class="addcart">CheckOut</h1>
+            <div class="apart">
+            <div class="info">
+                <label>Total Bills</label>
+                <input type="bills" placeholder="Ksh 1200.00" id="money">
+                <br><br>
+                <label>Location</label>
+                <input type="locate" placeholder="Kangemi" id="place">
+                <br><br>
+                <label>Phone Number</label>
+                <input type="phone" placeholder="+25421884357" id="number">
+            </div>
+            <br><br><br>
+             <div class="mv">
+            <button class="pay">PAYMENT</button>
+         <br><br>
+            <div class="methodpay">
+                <button><img class="sm" src="/image/mpesa.png" alt=""></button>
+                <select class="method">
+                    <option value="Pay Bill" enabled>Pay Bill</option>
+                    <option value="Send Money">Send Money</option>
+                    <option value="Till number" selected>Till Number</option>
+                  </select>
+            <br><br>
+            <button class="deliver">delivery</button>
+            <select class="pickup">
+                <option value="Door to door service " enabled>Door service</option>
+                <option value="Pickup Point">Pickup Point</option>
+              </select>
+              <br> <br>
+            
+             </div>
+             <!-- updated this section -->
+            
+        </div>
+        <button class="btn"><a href="/index.html">Proceed</button>
+        </div>
+        </section>
+</body>
+</html>
